@@ -1,0 +1,125 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li, form, button {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    min-height: 100vh; /* Set a minimum height of 100% viewport height */
+}
+
+.img1 {
+    top: 250px;
+    height: 810px;
+   position: relative;
+}
+
+.profile-container {
+    max-width: 40%; /* Make the container responsive */
+    padding: 20px;
+    background-color: #ffffff6c;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.6, 0.8);
+    margin: 50px; /* Add some margin around the container */
+    overflow: hidden; /* Ensure the container clears its children properly */
+    position: relative;
+    margin-left: 800px;
+    margin-top: -760px;
+
+}
+
+.profile-photo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profile-photo img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 60%; /* Make sure the profile image is a circle */
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increase the margin for better spacing */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px; /* Add spacing between form elements */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+    justify-content: center;
+    left: 400px;
+    position: relative;
+}
+
+button:hover {
+    background-color: #07456d;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #3498db;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Style radio buttons horizontally */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between radio buttons as needed */
+}
+
+/* Style radio button labels */
+.form-group label[for="edit-male"],
+.form-group label[for="edit-female"],
+.form-group label[for="edit-other"] {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between labels as needed */
+}
